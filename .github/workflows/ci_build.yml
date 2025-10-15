@@ -44,7 +44,7 @@ jobs:
           echo storePassword=${{ secrets.KEY_STORE_PASSWORD }} >> signing.properties
           echo keyAlias=${{ secrets.KEY_STORE_PASSWORD }} >> signing.properties
           echo keyPassword='${{ secrets.KEY_STORE_PASSWORD }}' >> signing.properties
-          echo storeFile=.github/hyperceiler.jks >> signing.properties
+          echo storeFile=../.github/hyperceiler.jks >> signing.properties
           echo "GIT_ACTOR=${{ secrets.GIT_ACTOR }}" >> $GITHUB_ENV
           echo "GIT_TOKEN=${{ secrets.GIT_TOKEN }}" >> $GITHUB_ENV
 
