@@ -139,7 +139,7 @@ public class HyperCeilerTabActivity extends NaviBaseActivity
 
         // 先这样写，后面扩展了其它应用再改
         boolean check = CheckModifyUtils.INSTANCE.isApkModified(this, "com.miui.home", CheckModifyUtils.XIAOMI_SIGNATURE);
-        CheckModifyUtils.INSTANCE.setCheckResult("com.miui.home", check);
+        CheckModifyUtils.INSTANCE.setCheckResult("com.miui.home", false);
     }
 
     @SuppressLint("StringFormatInvalid")
