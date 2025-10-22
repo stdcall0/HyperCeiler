@@ -34,9 +34,11 @@ O HyperCeiler deixou de ser mantido em ROM MIUI para o Android 11-13 e ROM Hyper
 
 ## Planejamento do projeto
 
-Espera-se que o Android 16 seja gradualmente adaptado à maioria dos dispositivos após o lançamento do Xiaomi HyperOS 3.0. No entanto, devido às políticas de desbloqueio do Xiaomi HyperOS, o número de dispositivos com root será significativamente reduzido em comparação com a versão anterior.
+O Xiaomi HyperOS 3 ou 4 será o ponto final deste projeto. Por enquanto, a Xiaomi incorporou seletivamente algumas das funções do Xposed em seus próprios dispositivos (pouco intuitivos), e as capacidades do módulo têm sido gradualmente reduzidas à medida que o sistema é atualizado.
 
-Os dispositivos disponíveis para os desenvolvedores só podem ser parcialmente adaptados e não há garantia de que todos os recursos funcionarão corretamente. Existe também a possibilidade de o projeto ser arquivado e o desenvolvimento descontinuado.
+Também acompanhei o Xiaomi HyperOS evoluir, passo a passo, de algo completamente inutilizável sem root para algo quase utilizável (exceto Xiaomi Pad).
+
+No futuro, este módulo será amplamente adaptado ao Xiaomi HyperOS 3.0 e versões posteriores, embora não haja garantia de que todas as funcionalidades estarão disponíveis. O Xiaomi HyperOS 2 será descontinuado em futuras manutenções, devido às grandes diferenças em relação às versões mais recentes.
 
 ## Apps suportados
 
@@ -61,6 +63,7 @@ Os dispositivos disponíveis para os desenvolvedores só podem ser parcialmente 
 | Mensagens                                      | com.android.mms                    |
 | Captura de tela                                | com.miui.screenshot                |
 | Calendário                                     | com.android.calendar               |
+| Anotações                                      | com.miui.notes                     |
 | Navegador                                      | com.android.browser                |
 | Rueban (MTB)                                   | com.xiaomi.mtb                     |
 | Gravador de tela                               | com.miui.screenrecorder            |
@@ -119,9 +122,11 @@ Junte-se ao nosso grupo para relatar problemas ou obter as atualizações mais r
 
 ## Contribuições de tradução
 
-[![Crowdin](https://badges.crowdin.net/cemiuiler/localized.svg)](https://crowdin.com/project/cemiuiler)
+Você pode fornecer traduções para o projeto [aqui](https://hosted.weblate.org/engage/hyperceiler/).
 
-Você pode fornecer traduções para o projeto [aqui](https://crwd.in/cemiuiler).
+<a href="https://hosted.weblate.org/engage/hyperceiler/">
+<img src="https://hosted.weblate.org/widget/hyperceiler/multi-auto.svg" alt="Translation status" />
+</a>
 
 > Observação: Quando o progresso da tradução do novo idioma for maior ou igual a 85%, ele entrará no processo de mesclagem. Se o progresso da tradução do idioma adicionado for menor ou igual a 30% do texto original, ele será removido temporariamente até que o progresso da tradução seja maior ou igual a 85%.
 

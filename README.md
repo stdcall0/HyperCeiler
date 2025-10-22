@@ -34,9 +34,9 @@ HyperCeiler 已停止维护 Android 11-13 的 MIUI ROM 和 Android 13/14 的 Hyp
 
 ## 项目规划
 
-Xiaomi HyperOS 3 or 4 将是本项目的一个终点，就目前来说，小米官方有选择性的根据 Xposed 的功能调整了自己的（反人类）功能，模块的功能也随着系统的更新在逐渐减少
+Xiaomi HyperOS 3 or 4 将是本项目的一个终点，就目前来说，小米官方有选择性的根据 Xposed 的功能调整了自己的（反人类）功能，模块的功能也随着系统的更新在逐渐减少。
 
-也是一步步看着澎湃从没 root 不能用到变得差不多能用的样子（小米平板除外）
+也是一步步看着澎湃从没 Root 不能用到变得差不多能用的样子（小米平板除外）
 
 未来本模块会深度适配 HyperOS 3.0 及以上版本（但不保证功能上都能用），HyperOS 2 会在后续维护中归档（因为变化差距大）
 
@@ -122,9 +122,11 @@ Xiaomi HyperOS 3 or 4 将是本项目的一个终点，就目前来说，小米�
 
 ## 为 HyperCeiler 贡献翻译
 
-[![Crowdin](https://badges.crowdin.net/cemiuiler/localized.svg)](https://crowdin.com/project/cemiuiler)
+我们使用了 Hosted Weblate 进行项目翻译同步，您可以在[这里](https://hosted.weblate.org/engage/hyperceiler/)为 HyperCeiler 项目贡献翻译。
 
-您可以在[这里](https://crwd.in/cemiuiler)为 HyperCeiler 项目贡献翻译。
+<a href="https://hosted.weblate.org/engage/hyperceiler/">
+<img src="https://hosted.weblate.org/widget/hyperceiler/multi-auto.svg" alt="翻译状态" />
+</a>
 
 > 注：当新语言翻译进度大于或等于 85% 时，将会进入合并流程，如果已添加的语言，翻译进度小于或等于源文本的 30%，将会暂时被移除，直到重新满足翻译进度大于或等于 85%。
 
